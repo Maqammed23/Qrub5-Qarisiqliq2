@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#first{
+/* display: flex;
+justify-content: space-between;
+align-items: baseline; */
+}
+li{
+    list-style-type: none;
+    font-weight: bolder;
+    font-style: oblique;
+}
+li:hover{
+    cursor: pointer;
+}
+#ilkp{
+    width: 40vw;
+}
+#womens{
+position: relative;
+}
+.weniki{
+    position: absolute;
+    display: none;
+}
+#womens:hover .weniki{
+    display: block;
+    background-color: black;
+    color: white;
+    height: 30vh;
+    width: 10vw;
+    overflow-y: auto;
+}
+#but{
+    
+}
+#adidas{
+    display: inline;
+    
+}
+#ilkhbir{
+font-weight: 900;
+font-family: GT Walsheim Pro;
+    color: black;
+}
+#ikincihbir{
+    font-family: GT Walsheim Pro;
+    color: red;
+    font-weight: 300;
+font-style: unset;
+font-weight: lighter;
+}
+#ilkp{
+    font-family: GT Walsheim Pro;
+    font-weight: bolder;
+}
+#money{
+    font-family: GT Walsheim Pro;
+    color: red;
+}
+#ilkbutton{
+    color: #0000004A;
+    text-shadow: #0000004A;
+    border-radius: 14px;
+    
+}
+#adidas{
+    display: block;
+    width: 20vw;
+    height: 20vh;
+}
+#adidas:hover{
+cursor: pointer;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+#adida{
+    
+}
+#r, #t, #y{
+    position: relative;
+    bottom: 80px;
+    left: 50px;
+    width: 15vw;
+    height: 20vh; background-image: url(./Group\ 4.png);
+    text-align: center;
+}
+
+
+
+

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+body{
+    background-color: rgb(240, 240, 240);
+}
+ #q{
+    float: right;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+#e{
+float: left;
+}
