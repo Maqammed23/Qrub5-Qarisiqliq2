@@ -47,9 +47,27 @@ position: relative;
 #but{
     
 }
+#salebir{
+    position: relative;
+}
+#saleiki{
+    position: absolute; 
+    display: none;
+}
+#salebir:hover #saleiki{
+    display: block;
+    background-color: black;
+    color: white;
+    width: 15vw;
+    height: 30vh;
+}
 #adidas{
     display: inline;
     
+}
+#fakeadidas{
+    display: flex;
+    justify-content: space-between;
 }
 #ilkhbir{
 font-weight: 900;
