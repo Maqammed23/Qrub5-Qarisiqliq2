@@ -7,6 +7,7 @@ body{
     background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
 }
 #first{
 /* display: flex;
@@ -19,6 +20,8 @@ li{
     list-style-type: none;
     font-weight: bolder;
     font-style: oblique;
+    text-decoration: none;
+    color: black;
 }
 li:hover{
     cursor: pointer;
@@ -30,6 +33,7 @@ li:hover{
 position: relative;
 }
 .weniki{
+    
      position: absolute;
     display: none;
 }
@@ -61,10 +65,28 @@ position: relative;
     width: 15vw;
     height: 30vh;
 }
-#adidas{
-    display: inline;
+#adidasiki{
+    display: flex;
     
 }
+.u{
+    background-color: black;
+    border-radius: 15px;
+    border: none;
+    position: relative;
+    bottom: 115px;
+    left: 215px;
+    width: 30px;
+    height: 30px;
+}
+.imagelerkicik{
+    /* width: 35vw;
+    height: 40vh; */
+}
+i{
+    color: white;
+}
+
 #fakeadidas{
     display: flex;
     justify-content: space-between;
@@ -116,8 +138,8 @@ ul{
     position: relative;
     bottom: 80px;
     left: 50px;
-    width: 15vw;
-    height: 20vh; background-image: url(./Group\ 4.png);
+    width: 20vw;
+    height: 25vh; background-image: url(WhatsApp\ Image\ 2025-09-20\ at\ 15.15.43.jpeg);
     text-align: center;
 }
 @keyframes animationbir {
