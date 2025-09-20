@@ -158,10 +158,12 @@ ul{
 @keyframes identifier {
     
 }
+
 body{
     animation-name: animationbir;
 animation-duration: 3s;
 animation-iteration-count: infinite;
+
 
 }
 
